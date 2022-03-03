@@ -1,4 +1,5 @@
 from sqlite3 import connect
+from time import sleep
 from PyQt5.Qt import Qt
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import(
@@ -135,6 +136,7 @@ class Login_window(QWidget):
             if Condition == True: # Go to users chatroom
                 print(f"{username} loged in successfully")
                 self.close()
+                sleep(2)
                 self.w = Window()
                 self.w.show()
                 self.close()

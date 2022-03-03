@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import(
     QMessageBox, QFormLayout, QPlainTextEdit
 )
 
-from .Practice_client_server.Client import Client
+from .Server_Client.Client import Client
 
 connect = Client()
 
