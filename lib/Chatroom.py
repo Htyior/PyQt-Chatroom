@@ -10,7 +10,7 @@ from PyQt5.QtWidgets import(
 
 from .Server_Client.Client import Client
 
-connect = Client()
+#connect = Client()
 
 msg = ""
 
@@ -87,17 +87,21 @@ class Chatroom(QWidget):
             # make the input section clear after sending message
             self.q_line_edit1.setText("")
 
+            # Check if the message box is empty do nothing
+            if value == "":
             # send the message to show_message function and print it in output section
-            self.editor.insertPlainText("You: " + value + "\n")
+                pass
+            else:
+                self.editor.insertPlainText("You: " + value + "\n")
 
             # send message to client file for sending to other client
-            connect.send(value)
+ #           connect.send(value)
 
 
         h_layout.addWidget(self.q_line_edit1)
         self.main_layout.addLayout(h_layout)
     
-    def receve_msg(self):
-        while True:
-            self.msg = connect.receve()
-            self.editor.insertPlainText("He: " + self.msg + "\n")
+ #   def receve_msg(self):
+#        while True:
+#            self.msg = connect.receve()
+ #           self.editor.insertPlainText("He: " + self.msg + "\n")
