@@ -30,13 +30,13 @@ def main():
 
 #    t1 = threading.Thread(target=server_starting)
     t2 = threading.Thread(target=start_app)
-    t3 = threading.Thread(target=chatroom.receve_msg)
+#    t3 = threading.Thread(target=chatroom.receve_msg)
 #    t4 = threading.Thread(target=chatroom2.receve_msg)
 
 
    # t1.start()
     t2.start()
-    t3.start()
+#    t3.start()
 #    t4.start()
 
 

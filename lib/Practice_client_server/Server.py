@@ -5,7 +5,7 @@ import socket
 class Server:
     def __init__(self):
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.port = 12345
+        self.port = 12365
         self.addr_list = []
         self.c_list = []
         self.s.bind(('', self.port))
