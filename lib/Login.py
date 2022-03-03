@@ -107,6 +107,7 @@ class Login_window(QWidget):
 
             }
         """)
+
         # Dont show the password
         self.q_line_edit2.setEchoMode(QtWidgets.QLineEdit.Password)
 
@@ -115,6 +116,7 @@ class Login_window(QWidget):
 
         self.main_layout.addLayout(h_layout)
 
+    # Creating the login button 
     def main_button(self):
         h_layout = QHBoxLayout()
         h_layout.setContentsMargins(0, 0, 200, 0)
@@ -123,6 +125,7 @@ class Login_window(QWidget):
         q_main_button = QPushButton()
         q_main_button.setText("Login")
 
+        # Sending the username and paaword to the database and check if its right
         def login_action():
             username = str(self.q_line_edit1.text())
             password = str(self.q_line_edit2.text())
