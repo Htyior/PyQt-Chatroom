@@ -1,3 +1,6 @@
+""" Creating message box """
+
+
 import sys
 from PyQt5.QtWidgets import QMessageBox, QWidget
 
@@ -20,12 +23,11 @@ Type of messages:
 
 
 
-
-
 class Message_box(QWidget):
     def __init__(self):
         pass
 
+    # Critical messgae box
     def show_login_error_messagebox(self):
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Critical)
@@ -41,7 +43,7 @@ class Message_box(QWidget):
 
         msg.exec_()
 
-
+    # Warning message box
     def show_login_input_is_empty(self):
 
         msg = QMessageBox()
@@ -58,6 +60,7 @@ class Message_box(QWidget):
 
         msg.exec_()
     
+    # Warning message box
     def show_username_not_exist(self):
 
         msg = QMessageBox()

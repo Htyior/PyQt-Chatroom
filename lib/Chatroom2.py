@@ -41,9 +41,8 @@ class Chatroom2(QWidget):
 
         self.show_message()
         self.message_section()
-        self.receve_msg()
 
-
+    # show message section
     def show_message(self):
         h_layout = QHBoxLayout()
         h_layout.setContentsMargins(0, 0, 10, 10)
@@ -60,7 +59,7 @@ class Chatroom2(QWidget):
         self.main_layout.addLayout(h_layout)
 
 
-
+    # Writing the message
     def message_section(self):
         
         h_layout = QHBoxLayout()

@@ -5,7 +5,7 @@ import socket
 class Server:
     def __init__(self):
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.port = 1234
+        self.port = 12345
         self.addr_list = []
         self.c_list = []
         self.s.bind(('', self.port))
@@ -28,8 +28,8 @@ class Server:
             self.addr_list.append(addr)
             print(f"Got connection from {self.addr_list[i]}")
 
-        t1 = threading.Thread(target=Server.send_to_client1, args=(self.c_list[0], self.send_to_client2[1], ))
-        t2 = threading.Thread(target=Server.send_to_client2, args=(self.c_list[0], self.send_to_client2[1], ))
+        t1 = threading.Thread(target=Server.send_to_client1, args=(self.c_list[0], self.c_list[1], ))
+        t2 = threading.Thread(target=Server.send_to_client2, args=(self.c_list[0], self.c_list[1], ))
 
         t1.start()
         t2.start()

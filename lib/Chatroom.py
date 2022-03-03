@@ -22,7 +22,7 @@ class Chatroom(QWidget):
 
         self.__init_ui__()
 
-    
+
     def __init_ui__(self):
         self.setWindowTitle("Login page")
         self.setAccessibleName("main_window")
@@ -41,9 +41,8 @@ class Chatroom(QWidget):
 
         self.show_message()
         self.message_section()
-        self.receve_msg()
 
-
+    # show message section
     def show_message(self):
         h_layout = QHBoxLayout()
         h_layout.setContentsMargins(0, 0, 10, 10)
@@ -60,7 +59,7 @@ class Chatroom(QWidget):
         self.main_layout.addLayout(h_layout)
 
 
-
+    # Writing the message
     def message_section(self):
         
         h_layout = QHBoxLayout()
@@ -85,7 +84,6 @@ class Chatroom(QWidget):
 
         def show_msg():
             value = self.q_line_edit1.text()
-
             # make the input section clear after sending message
             self.q_line_edit1.setText("")
 
@@ -98,7 +96,7 @@ class Chatroom(QWidget):
 
         h_layout.addWidget(self.q_line_edit1)
         self.main_layout.addLayout(h_layout)
-
+    
     def receve_msg(self):
         while True:
             self.msg = connect.receve()
