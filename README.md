@@ -26,19 +26,11 @@ A simple chat room with chatroom made with a beautiful UI
 python3 main.py
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Hossein Rezaei
-hrnewr@gmail.com
+* Hossein Rezaei
+* hrnewr@gmail.com
 
-ex. Dominique Pizzie  
 ex. [@DomPizzie](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
 
 ## Version History
