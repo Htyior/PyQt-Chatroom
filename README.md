@@ -26,7 +26,7 @@ A simple chat room with chatroom made with a beautiful UI
 python3 main.py
 ```
 
-## Authors
+## Author
 
 * Hossein Rezaei
 * hrnewr@gmail.com
