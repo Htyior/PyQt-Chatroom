@@ -15,9 +15,9 @@ A simple chat room with chatroom made with a beautiful UI
 * ex. Windows 10
 
 ### Installing
-
-* git clone https://github.com/Htyior/PyQt-Chatroom.git
-
+```
+git clone https://github.com/Htyior/PyQt-Chatroom.git
+```
 ### Executing program
 
 * How to run the program
