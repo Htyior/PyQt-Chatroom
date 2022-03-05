@@ -31,9 +31,12 @@ python3 main.py
 
 ## Version History
 
+* 0.4
+    * Sort files and folders
+* 0.3
+    * Disable server from the programm 
 * 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+    * Various bug fixes and optimizations 
 * 0.1
     * Initial Release
 
