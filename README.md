@@ -19,9 +19,6 @@ A simple chat room with chatroom made with a beautiful UI
 git clone https://github.com/Htyior/PyQt-Chatroom.git
 ```
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
 python3 main.py
 ```
