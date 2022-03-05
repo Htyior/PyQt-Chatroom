@@ -27,7 +27,7 @@ class Chatroom2(QWidget):
         self.setStyleSheet("""
             [accessibleName="main_window"] {
                 background-color: None;
-                min-width: 700px;
+                min-width: 600px;
                 min-height: 500px;
             }
         """)
@@ -43,9 +43,8 @@ class Chatroom2(QWidget):
     # show message section
     def show_message(self):
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 10, 10)
+        h_layout.setContentsMargins(0, 0, 150, 0)
         h_layout.addStretch(0)
-
 
 
         self.editor = QPlainTextEdit()
@@ -61,7 +60,7 @@ class Chatroom2(QWidget):
     def message_section(self):
         
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 250, 0)
+        h_layout.setContentsMargins(0, 0, 150, 0)
         h_layout.addStretch(0)
 
         self.q_line_edit1 = QLineEdit()
@@ -71,7 +70,7 @@ class Chatroom2(QWidget):
         self.q_line_edit1.setStyleSheet("""
             [accessibleName="user_name"] {
                 color: black;
-                min-width: 200px;
+                min-width: 225px;
                 min-height: 30px;
             }
         """)
