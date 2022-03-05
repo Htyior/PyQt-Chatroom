@@ -21,18 +21,18 @@ class Chatroom(QWidget):
 
 
     def __init_ui__(self):
-        self.setWindowTitle("Login page")
+        self.setWindowTitle("Chatroom1")
         self.setAccessibleName("main_window")
         self.setStyleSheet("""
             [accessibleName="main_window"] {
                 background-color: None;
-                min-width: 700px;
+                min-width: 600px;
                 min-height: 500px;
             }
         """)
 
 
-        self.main_layout.setContentsMargins(0, 0, 0, 0)
+        self.main_layout.setContentsMargins(0, 0, 150, 0)
         self.main_layout.addStretch(0)
         self.setLayout(self.main_layout)
 
@@ -42,7 +42,7 @@ class Chatroom(QWidget):
     # show message section
     def show_message(self):
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 10, 10)
+        h_layout.setContentsMargins(0, 0, 10, 0)
         h_layout.addStretch(0)
 
 
@@ -60,7 +60,7 @@ class Chatroom(QWidget):
     def message_section(self):
         
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 250, 0)
+        h_layout.setContentsMargins(0, 0, 10, 0)
         h_layout.addStretch(0)
 
         self.q_line_edit1 = QLineEdit()

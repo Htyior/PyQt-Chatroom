@@ -22,7 +22,7 @@ class Chatroom2(QWidget):
 
     
     def __init_ui__(self):
-        self.setWindowTitle("Login page")
+        self.setWindowTitle("Chatroom2")
         self.setAccessibleName("main_window")
         self.setStyleSheet("""
             [accessibleName="main_window"] {

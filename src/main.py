@@ -1,6 +1,6 @@
 """
     Created By Hoss
-    - Main
+    - Main, start server and app
 
 """
 
@@ -9,7 +9,7 @@
 import threading
 from PyQt5.QtWidgets import QApplication
 #from lib.Practice_client_server.Server import Server
-from .commons.window.login_page import Login_window
+from commons.window.login_page.Login import Login_window
 #from lib.Chatroom import Chatroom
 #from lib.Chatroom2 import Chatroom2
 

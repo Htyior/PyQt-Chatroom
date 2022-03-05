@@ -57,7 +57,7 @@ class Login_window(QWidget):
 
         q_label = QLabel("Username:")
         q_label.setAccessibleName("lbl_name1")
-        q_label.setContentsMargins(0 , 0, 50, 55)
+        q_label.setContentsMargins(0 , 0, 50, 0)
         q_label.setStyleSheet("""
             [accessibleName="lbl_name1"] {
                 color: Black;
@@ -68,7 +68,7 @@ class Login_window(QWidget):
 
         self.q_line_edit1 = QLineEdit()
         self.q_line_edit1.setPlaceholderText("username")
-        self.q_line_edit1.setContentsMargins(0, 0, 50, 50)
+        self.q_line_edit1.setContentsMargins(0, 0, 50, 0)
         self.q_line_edit1.setAccessibleName("user_name")
         self.q_line_edit1.setStyleSheet("""
             [accessibleName="user_name"] {
@@ -92,7 +92,7 @@ class Login_window(QWidget):
 
         q_label = QLabel("Password:")
         q_label.setAccessibleName("lbl_name2")
-        q_label.setContentsMargins(0 , 0, 50, 155)
+        q_label.setContentsMargins(0 , 0, 50, 0)
         q_label.setStyleSheet("""
             [accessibleName="lbl_name2"] {
                 color: Black;
@@ -103,7 +103,7 @@ class Login_window(QWidget):
 
         self.q_line_edit2 = QLineEdit()
         self.q_line_edit2.setPlaceholderText("password")
-        self.q_line_edit2.setContentsMargins(0, 0, 50, 150)
+        self.q_line_edit2.setContentsMargins(0, 0, 50, 0)
         self.q_line_edit2.setAccessibleName("password")
         self.q_line_edit2.setStyleSheet("""
             [accessibleName="password"] {
@@ -125,7 +125,7 @@ class Login_window(QWidget):
     # Creating the login button 
     def main_button(self):
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 200, 0)
+        h_layout.setContentsMargins(0, 0, 250, 200)
         h_layout.addStretch(0)
 
         q_main_button = QPushButton()

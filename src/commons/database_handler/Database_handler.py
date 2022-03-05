@@ -11,7 +11,7 @@ class DB_function:
 
     # Creating the Database
     def db_create(self):
-        con = sqlite3.connect('C:/Users/Hoss/Learning_Python/Learn/Qt/Qt_project/lib/Database.db')
+        con = sqlite3.connect('C:/Users/Hoss/Learning_Python/Learn/Qt/Qt_project/src/commons/database_handler/Database.db')
         return con
     
     # Login action: check if username and password are right

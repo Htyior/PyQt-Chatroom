@@ -54,7 +54,7 @@ class Window(QWidget):
 
         q_label = QLabel("Username:")
         q_label.setAccessibleName("lbl_username")
-        q_label.setContentsMargins(0, 0, 50, 0)
+        q_label.setContentsMargins(0, 0, 20, 0)
         q_label.setStyleSheet("""
             [accessibleName="lbl_username"] {
                 color: Black;
@@ -82,7 +82,7 @@ class Window(QWidget):
 
     def Button(self):
         h_layout = QHBoxLayout()
-        h_layout.setContentsMargins(0, 0, 200, 0)
+        h_layout.setContentsMargins(0, 10, 250, 200)
         h_layout.addStretch(0)
 
         q_main_button = QPushButton()
@@ -98,8 +98,8 @@ class Window(QWidget):
                 self.win2 = Chatroom2()
                 self.win = Chatroom()
 
-                self.win.show()
                 self.win2.show()
+                self.win.show()
 
                 self.close()
             if Condition == False:
@@ -110,10 +110,22 @@ class Window(QWidget):
         q_main_button.setAccessibleName("button")
         q_main_button.setStyleSheet("""
             [accessibleName="button"] {
-                color: white;
-                min-width: 60px;
-                min-height: 60px;
-                background-color: lightgreen;
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+        color: green;
+        cursor: pointer;
+        display: inline-block;
+        font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
             }
         """)
 
