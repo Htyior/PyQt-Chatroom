@@ -1,3 +1,11 @@
+"""
+    Created By Hoss
+    - Main
+
+"""
+
+
+
 import threading
 from PyQt5.QtWidgets import QApplication
 #from lib.Practice_client_server.Server import Server
