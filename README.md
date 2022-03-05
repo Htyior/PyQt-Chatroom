@@ -29,9 +29,8 @@ python3 main.py
 ## Author
 
 * Hossein Rezaei
-* hrnewr@gmail.com
-
-[@Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
+* [Email](hrnewr@gmail.com)
+* [Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
 
 ## Version History
 
