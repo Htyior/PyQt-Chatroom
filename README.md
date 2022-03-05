@@ -31,7 +31,7 @@ python3 main.py
 * Hossein Rezaei
 * hrnewr@gmail.com
 
-ex. [@Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
+[@Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
 
 ## Version History
 
