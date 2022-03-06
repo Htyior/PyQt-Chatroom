@@ -4,7 +4,7 @@ PyQt5 chatroom
 
 ## Description
 
-A simple chat room with chatroom made with a beautiful UI
+A simple chat room with chatroom made with PyQt5
 
 ## Getting Started
 
