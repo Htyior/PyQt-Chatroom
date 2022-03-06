@@ -20,9 +20,8 @@ python3 main.py
 ## Author
 
 * Hossein Rezaei
-* <a href=mailto:<nowiki>agentavery@sample.com?subject="HTML link">Click here to send us an email!!!</a>
-* <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
-* [Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
+* <a href="https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234" target="_blank">Linkdin</a>
+* hrnewr@gmail.com
 
 ## Version History
 
