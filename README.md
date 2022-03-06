@@ -20,7 +20,7 @@ python3 main.py
 ## Author
 
 * Hossein Rezaei
-* [Email](<a href="https://www.freecodecamp.org/" target="_blank"></a>)
+* <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
 * [Linkdin](https://www.linkedin.com/in/hossein-rezaei-7711001a2/?jobid=1234)
 
 ## Version History
